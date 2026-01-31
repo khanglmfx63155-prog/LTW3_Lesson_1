@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f8fb;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background: #2b64b1;
+  color: white;
+  padding: 15px 30px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 8px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+nav a.active {
+  background: #e6f0ff;
+  color: #2b64b1;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Tiêu đề */
+.title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Danh sách sản phẩm */
+#product-ls {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 0 40px 40px;
+}
+
+/* Item */
+.product-item {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.product-item img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
